@@ -2,6 +2,16 @@
 
 @section('content')
 
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="{{route('home')}}">
+                <img src="{{asset("assets/images/deadpool.png")}}">
+            </a>
+        </div>
+    </nav>
+</header>
+
 <h2>Cadastre-se</h2>
 
 <form action="{{route('users.store')}}" method='post'>

@@ -6,10 +6,10 @@
     <nav class="navbar">
         <div class="logo">
             <a href="{{route('home')}}">
-                <img src="{{asset("assets/images/deadpool.png")}}
-                ">
+                <img src="{{asset("assets/images/deadpool.png")}}">
             </a>
         </div>
+    </nav>
 </header>
 
 <form action="{{route('users.update')}}/{{$user->id}}" method='post'>
